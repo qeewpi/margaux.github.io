@@ -196,6 +196,7 @@ body {
 } 
 
 a:link, a:visited {
+	text-color: white;
 	text-decoration: none;	 
 }
 
