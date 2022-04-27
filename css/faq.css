@@ -50,12 +50,12 @@ th {
 	font-weight: normal;
 }
 
-.faq a:link {
+.faq :is(a:link) {
 	color: #A67017;
 	text-decoration: none;	 
 }
 
-.faq a:visited {
+.faq :is(a:visited) {
 	color: #A67017;
 	text-decoration: none;	 
 }
