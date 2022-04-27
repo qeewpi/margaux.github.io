@@ -76,7 +76,7 @@ img {
 	padding-bottom: 1em;	
 }
 
-.locations :is(a) {
+a:link {
 	color: #A67017;
 	text-decoration: none;	 
 }
