@@ -76,7 +76,7 @@ img {
 	padding-bottom: 1em;	
 }
 
-a:link {
+.faq :is(a) {
 	color: #A67017;
 	text-decoration: none;	 
 }
