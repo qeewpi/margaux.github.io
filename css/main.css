@@ -195,8 +195,7 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(49, 43, 39, 0.25);
 } 
 
-a:link {
-	color: #4F3202;
+a:link, a:visited {
 	text-decoration: none;	 
 }
 
