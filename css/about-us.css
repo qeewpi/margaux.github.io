@@ -23,8 +23,8 @@
 
 .carousel-content-avatar {
 	display: block;
-	height: 50%;
-	width: 50%;
+	height: 100px;
+	width: 100px;
 	border-radius: 50%;
 	border: solid #fff;
 	border-width: medium;
@@ -33,6 +33,7 @@
 	-webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
 	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+	object-fit: cover;
 }
 
 .carousel-container-img {
@@ -87,8 +88,9 @@
 }
 
 .avatar-container {
-	padding-left: 200px;
-    padding-right: 200px;
+	padding-left: 100px;
+    padding-right: 100px;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
     margin-bottom: 2em;

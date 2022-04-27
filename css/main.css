@@ -165,6 +165,14 @@ body {
     padding: 40px 0;
 }
 
+.page-footer a:link, .page-footer a:visited {
+	color: #ccc;
+}
+
+.border-footer {
+	border: 0;
+	border-top: .5px solid rgba(204, 204, 204, .1);
+}
 .animation-hover {
   transition: transform .2s; /* Animation */
 }
