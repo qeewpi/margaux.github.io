@@ -15,9 +15,11 @@
 .locations-desc {
 	text-align: center;
 	padding-bottom: 2em;
+	font-weight: 400;
+	font-family: "Raleway", sans-serif;
 }
 	
-}.animation-hover {
+.animation-hover {
   transition: transform .2s; /* Animation */
 }
 

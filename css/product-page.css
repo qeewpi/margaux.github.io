@@ -27,11 +27,13 @@
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
 	border-radius: 1rem;
+	height: 400px;
 }
 
 .card-img-actions {
-    position: relative
+    position: relative;
 	float: none;
+
 }
 
 .card-body {
@@ -40,6 +42,14 @@
     flex: 1 1 auto;
     padding: 1.25rem;
     text-align: center;
+}
+
+.card-body-desc {
+	border-radius: 1rem 1rem 1rem 1rem ;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 4rem;
+    text-align: left;
 }
 
 .product-title {
@@ -86,7 +96,9 @@ a {
 }
 
 .img-cart {
-	width: 50%;
+	width: 30%;
+	height: auto;
+	padding-left: .7em;
 }
 
 .products-desc {
