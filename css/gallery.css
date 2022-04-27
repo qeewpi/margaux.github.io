@@ -1,0 +1,38 @@
+.gallery {
+	margin: 4em auto;
+	padding-top: 1em;
+	position: relative;
+}
+
+.gallery1 {
+	margin: 4em auto;
+	position: relative;
+	margin-bottom: -4em;
+}
+
+.row > div { margin-bottom: 30px}
+
+.gallery-text {
+	text-align: left;
+	margin-bottom: 2em;
+}
+
+.product-gallery {
+	margin: 4em auto;
+	position: relative;
+}
+
+.gallery-header {
+	padding: 1em;
+	padding-left: 5em;
+
+}
+
+.gallery-title {
+	text-align: left;
+}
+
+.gallery-desc {
+	text-align: left;
+	padding-top: .5em;
+}

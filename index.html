@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css"> 
+	<link rel="stylesheet" href="css/baguetteBox.min.css">
+	<link rel="stylesheet" href="css/baguetteBox.css">	  
+	<link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+	<!-- favicon -->
+	<link rel="icon" href="images/favicon.png">
+	  
+  </head>
+  <body>
+  	<!-- body code goes here -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+	<a class="navbar-brand" href="">
+		<h3>MARGAUX</h3></a>
+	<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="products.html">Beaded Jewelry Collection</a>
+		  <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="gallery.html">Product Gallery</a>
+		</div>	
+      </li>	
+	  <li class="nav-item">
+        <a class="nav-link" href="testimonials.html">Testimonials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about-us.html">About Us</a>
+      </li>		
+	  <li class="nav-item">
+        <a class="nav-link" href="contact-us.html">Contact Us</a>
+      </li>		
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          FAQs
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="faq.html#faq-order">How to Order</a>
+          <a class="dropdown-item" href="faq.html#faq-payment">Payment Options</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="faq.html#faq-sizes">Bracelet Sizes</a>
+		  <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="locations.html">Locations</a>
+        </div>
+      </li>
+    </ul>
+	<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+		<input type="hidden" name="cmd" value="_s-xclick">
+		<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+		<input type="image" src="images/view-cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class="view-cart animation-hover-btn">
+		<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+	</form>
+  </div>
+</nav>
+	  
+<header class="page-header header container-fluid">
+	<div class="overlay">
+		<div class="description">
+		<h1>Welcome to MARGAUX</h1>
+		<p>Uniquely handcrafted bohemian-chic fashion accessories. Check out our wide range of beaded jewelry products.</p>
+		<a class="btn btn-secondary btn animation-hover-btn" href="gallery.html" role="button">Gallery</a>
+		</div>
+	</div>
+
+</header>
+
+<div class="container features">
+    <div class="row justify-content-between gallery">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+			<div class="col-md-12 card animation-hover">
+				<h3 class="feature-title">High Quality Beaded Jewelry</h3>
+				<a href="images/column-1.jpg">
+					<img src="images/column-1.jpg" class="img-fluid">
+				</a>
+				<p>MARGAUX assures top-notch quality in every handcrafted accessory.</p>
+			</div>	
+        </div>
+        
+        <div class="col-lg-4 col-md-4 col-sm-12">
+			<div class="col-md-12 card animation-hover">
+				<h3 class="feature-title">Timeless Designs</h3>
+				<a href="images/column-2.jpg">
+					<img src="images/column-2.jpg" class="img-fluid">
+				</a>
+				<p>MARGAUX creates handcrafted accessories that will last you for ages.</p>
+			</div>
+        </div>
+        
+        <div class="col-lg-4 col-md-4 col-sm-12">
+			<div class="col-md-12 card animation-hover">
+				<h3 class="feature-title">Join our Newsletter!</h3>
+				<p>To stay updated on our latest products, sign up for our weekly newsletter.</p>
+					<form action="mailto:asrmanalo@mymail.mapua.edu.ph" method="post" enctype="text/plain">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Name" name="name">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" placeholder="Email Address" name="email">
+					</div>
+					<div class="form-group">
+						<input type="submit" class="btn btn-secondary btn animation-hover-btn" value="Subscribe" name="">
+					</div>
+					</form>
+			</div>
+    	</div>
+	</div>	  
+</div>
+	  
+<footer class="page-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-12">
+				<h6 class="font-weight-bold">Additional Information</h6>
+				<p>MARGAUX is a beaded jewelry fashion brand.</p>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<h6 class="font-weight-bold">Contact</h6>
+			<p>124 Tandang Sora Avenue, Quezon City
+			<br/>margaux@store.com
+			<br/>+ 63-962-991-7642<br>
+			</p>
+		</div>
+	<div>
+	<div class="footer-copyright text-center">© 2022 MARGAUX</div>
+</footer>
+			
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/main.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+	<script>
+		baguetteBox.run(".gallery", {
+		animation: 'slideIn'
+		});
+	</script>				
+			
+  </body>
+</html>

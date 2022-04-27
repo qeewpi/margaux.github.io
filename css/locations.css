@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+.faq {
+	margin: 4em auto;
+	position: relative;
+	border-radius: 1rem;
+}
+
+.locations-title {
+	text-align: center;
+	padding-top: 1em;
+}
+
+.locations-desc {
+	text-align: center;
+	padding-bottom: 2em;
+}
+	
+}.animation-hover {
+  transition: transform .2s; /* Animation */
+}
+
+.animation-hover:hover {
+  transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.locations {
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 2em;
+}
+
+.faq :is(h5) {
+	padding-top: .5em;
+	padding-bottom: .5em
+}
+
+table {
+	border-radius: 15px 15px 15px 15px;
+	overflow: hidden;
+	width: auto;
+	margin: auto;
+	font-size: 14px;
+}
+
+.thead{
+	background-color: #242220;
+	color: white;
+}
+
+th {
+	font-weight: normal;
+}
+
+.faq a:visited {
+	color: #4F3202;
+	text-decoration: none;	 
+}
+
+img {
+	max-width: 100%;
+ 	height: auto;
+}
+
+#map {
+    position:relative
+}
+
+.map_title {
+    position:absolute;    
+}
+
+.locations-content {
+	padding-top: 1em;
+	padding-bottom: 1em;	
+}

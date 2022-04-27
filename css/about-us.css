@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+.carousel-inner {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+
+.carousel-side-content {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.carousel-content-img {
+	display: block;
+	height: 10%;
+	width: 10%;
+	border-radius: 50%;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+.carousel-content-avatar {
+	display: block;
+	height: 50%;
+	width: 50%;
+	border-radius: 50%;
+	border: solid #fff;
+	border-width: medium;
+	margin-right: auto;
+	margin-left: auto;	
+	-webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-container-img {
+}
+
+.carousel-header2{
+	padding-top: 1em;
+}
+
+.carousel-description {
+	margin-bottom: 2em;
+}
+
+.carousel-name {
+	padding-top: .5em;
+	font-weight: bold;
+}
+
+.carousel-role {
+	padding-top: 0;
+	padding-bottom: 2em;
+	font-weight: lighter;
+}
+
+.carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #000;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.container-header-testi {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+}
+
+.meet-the-team {
+	margin-bottom: 16px;
+	border-radius: 1rem;
+	background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 33%, rgba(150,135,112,0.6250875350140056) 100%);
+}
+
+.avatar-container {
+	padding-left: 200px;
+    padding-right: 200px;
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 2em;
+}

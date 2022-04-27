@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+.carousel-inner {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+
+.carousel-side-content {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.carousel-content-img {
+	display: block;
+	height: 10%;
+	width: 10%;
+	border-radius: 50%;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+.carousel-container-img {
+}
+
+.carousel-testimonial {
+	margin-bottom: 2em;
+}
+
+.carousel-name {
+	padding-top: .5em;
+	font-weight: bold;
+}
+
+.carousel-role {
+	padding-top: 0;
+	padding-bottom: 2em;
+	font-weight: lighter;
+}
+
+.carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #000;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.container-header-testi {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+}
+
+.header {
+	background-image: url("../images/header-bg2.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
