@@ -195,11 +195,6 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(49, 43, 39, 0.25);
 } 
 
-a:link, a:visited {
-	text-color: white;
-	text-decoration: none;	 
-}
-
 a:hover {
 	color: dimgrey;
 	text-decoration: none;
